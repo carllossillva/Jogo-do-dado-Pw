@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(221, 250, 208);
+}
+
+:root{
+    --colorblue: rgb(196, 154, 250);
+}
+
+#numbers{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+
+}
+
+
+#result1 {
+    font-size: 5em;
+    text-align: center;
+}
+  #result3 {
+    font-size: 5em;
+    text-align: center;
+    
+  }
+
+  
+  #botao1 {
+    display: block;
+    margin: 20px auto;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--colorblue);
+    border: black;
+  }
+
+  #botaoReiniciar{
+    display: block;
+    margin: 20px auto;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--colorblue);
+    border: black;
+  }
+  #botao3{
+    display: block;
+    margin: 20px auto;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--colorblue);
+    border: black;
+  }
+
+  #botoes{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+  }
